@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <i>
+    <meta charset="utf-8">   
+    <title>join.html</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <link rel="stylesheet" href="/css/join.css">
+
+  <body> 
+    <div id="wrap">
+      <header>
+        <a class="logo" href="#home">
+         <h1 style="color: black"></i>GOM</h1>
+        </a>
+        <nav>
+          <ul class="nav-items">
+   
+            <li><a href="/index.html" style="color: black"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="#contact" style="color: black"><i class="fas fa-phone-alt"></i>Contact</a></li>
+            <li><a href="/member/login.html" style="color: black"><i class="fas fa-restroom"></i>Login</a></li>
+            <li><a href="/member/join.html" style="color: black"><i class="fas fa-address-book"></i></i>Join</a></li>
+          </ul>
+        </nav>
+      </header>
+      <form method="POST" id="aForm" name="aForm" action="/index.html">
+        <div>
+            <h2 style="margin-top: -20px;">회원가입</h2><br> </div>
+        <div>
+            <label class="loginID">아이디 : </label>
+            <input type="text" id="loginID" name="loginID" placeholder="ID"><br><br> </div>    
+        <div>
+            <label class="loginPW">비밀번호 : </label>
+            <input type="password" id="loginPW" name="password" placeholder="Password">
+        </div><br> 
+        <div>
+          <label class="loginPW">비밀번호 확인 : </label>       
+          <input type="password" id="loginPW2" name="password2" placeholder="Password">
+          </div><br>
+          <div>
+            <label class="userName">이름 :</label><br>
+            <input type="text" id="userName" name="userName" placeholder="Name">        
+        </div><br>
+        <div>
+            <label>성별 &nbsp;</label>
+            <input type="radio" name="성별" value="남" alt="남자" checked >남자
+            <input type="radio" name="성별" value="여" alt="여자" >여자
+        </div><br>
+        <div>
+          <label class="emill">이메일 :</label><br>
+          <input type="text" id="email" name="email" placeholder="Email">
+        </div>               
+        <div>
+            <p><button type="submit"><a href="/index.html">회원가입</a></button></p>
+        </div>
+        
+    </form>
+      <div id="content-wrap" clear="clearfix">
+      </div>
+    </div>   
+    <footer>Copyright 2019 Kong</footer>
+  </body>
+</html>  
+
+<!-- 열고 닫고 중요함. -->
+<!--alt + L + O => 브라우저 연결 단축키-->
